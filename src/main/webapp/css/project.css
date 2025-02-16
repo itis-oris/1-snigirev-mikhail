@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.description {
+    line-height: 1.6;
+    color: #555;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+.tags {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.tag a {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-weight: bold;
+}
+
+.tag a:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.tag a:active {
+    transform: translateY(0);
+}
+.edit-button {
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     background-color: #007BFF;
+     color: white;
+     border: none;
+     padding: 10px 15px;
+     border-radius: 5px;
+     cursor: pointer;
+     text-decoration: none;
+     font-size: 14px;
+ }
+.edit-button:hover {
+    background-color: #0056b3;
+}
+.avatar img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+    object-fit: cover;
+
+}
